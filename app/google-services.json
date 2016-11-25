@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "137708016633",
+    "firebase_url": "https://lab09c2016-6e60e.firebaseio.com",
+    "project_id": "lab09c2016-6e60e",
+    "storage_bucket": "lab09c2016-6e60e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137708016633:android:1494cc9cc69c7c8e",
+        "android_client_info": {
+          "package_name": "dam.isi.frsf.utn.edu.ar.lab09c2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137708016633-25054naqrenlusdr36rsvavvnenjqhi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjTiDGW-6ePyIMFhoskQZUwgD4EDuRYVk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
