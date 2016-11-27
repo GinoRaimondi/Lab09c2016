@@ -14,7 +14,61 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:text="Magnitud: "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_below="@+id/horaMaxX"
+        android:layout_alignParentStart="true"
+        android:id="@+id/magnitudX" />
+
+    <TextView
+        android:text="Hora Máximo Y: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magnitudX"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/horaMaxY" />
+
+    <TextView
+        android:text="Magnitud: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horaMaxY"
+        android:layout_alignParentStart="true"
+        android:id="@+id/magnitudY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora Máximo X: "
+        android:id="@+id/horaMaxX"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Hora Máximo Z: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/magnitudY"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/horaMaxZ" />
+
+    <TextView
+        android:text="Magnitud: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/magnitudZ"
+        android:layout_below="@+id/horaMaxZ"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="dsadsadadwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/textViewtodos"
+        android:layout_below="@+id/magnitudZ"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
